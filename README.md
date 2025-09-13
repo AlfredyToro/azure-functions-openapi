@@ -1,3 +1,18 @@
+cd hello_openapi
+
+4. Run locally:
+```bash
+func start
+```
+
+- OpenAPI JSON: http://localhost:7071/api/openapi.json
+- Swagger UI: http://localhost:7071/api/docs
+
+5. Deploy:
+```bash
+func azure functionapp publish <FUNCTION-APP-NAME> --python
+```
+
 # azure-functions-openapi
 
 [![PyPI](https://img.shields.io/pypi/v/azure-functions-openapi.svg)](https://pypi.org/project/azure-functions-openapi/)
@@ -260,3 +275,5 @@ See [CLI Guide](docs/CLI.md) for complete documentation.
 ## License
 
 MIT © 2025 Yeongseon Choe
+
+---
